@@ -7,3 +7,4 @@ export default {
   availability: ['claude-ai'],
   load: () => import('./usage.js'),
 } satisfies Command
+
