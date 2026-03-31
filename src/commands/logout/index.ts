@@ -8,3 +8,4 @@ export default {
   isEnabled: () => !isEnvTruthy(process.env.DISABLE_LOGOUT_COMMAND),
   load: () => import('./logout.js'),
 } satisfies Command
+
