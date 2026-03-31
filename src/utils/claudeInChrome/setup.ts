@@ -1,4 +1,4 @@
-import { BROWSER_TOOLS } from '@ant/claude-for-chrome-mcp'
+import { BROWSER_TOOLS } from '/home/axel-lenovo/Escritorio/claude-code/src/shims/ant-stub.ts'
 import { chmod, mkdir, readFile, writeFile } from 'fs/promises'
 import { homedir } from 'os'
 import { join } from 'path'

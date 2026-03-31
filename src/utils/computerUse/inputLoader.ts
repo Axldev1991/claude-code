@@ -1,7 +1,7 @@
 import type {
   ComputerUseInput,
   ComputerUseInputAPI,
-} from '@ant/computer-use-input'
+} from '/home/axel-lenovo/Escritorio/claude-code/src/shims/ant-stub.ts'
 
 let cached: ComputerUseInputAPI | undefined
 
@@ -22,9 +22,9 @@ let cached: ComputerUseInputAPI | undefined
 export function requireComputerUseInput(): ComputerUseInputAPI {
   if (cached) return cached
   // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const input = require('@ant/computer-use-input') as ComputerUseInput
+  const input = require('/home/axel-lenovo/Escritorio/claude-code/src/shims/ant-stub.ts') as ComputerUseInput
   if (!input.isSupported) {
-    throw new Error('@ant/computer-use-input is not supported on this platform')
+    throw new Error('/home/axel-lenovo/Escritorio/claude-code/src/shims/ant-stub.ts')
   }
   return (cached = input)
 }

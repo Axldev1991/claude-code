@@ -1,4 +1,4 @@
-import type { CoordinateMode, CuSubGates } from '@ant/computer-use-mcp/types'
+import type { CoordinateMode, CuSubGates } from '/home/axel-lenovo/Escritorio/claude-code/src/shims/ant-stub.ts'
 
 import { getDynamicConfig_CACHED_MAY_BE_STALE } from '../../services/analytics/growthbook.js'
 import { getSubscriptionType } from '../auth.js'

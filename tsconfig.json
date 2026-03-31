@@ -18,10 +18,12 @@
     "types": ["node"],
     "baseUrl": ".",
     "paths": {
-      "bun:bundle": ["./src/types/bun-bundle.d.ts"]
+      "bun:bundle": ["./src/types/bun-bundle.d.ts"],
+      "@ant/*": ["src/shims/ant-stub.ts"],
+      "color-diff-napi": ["src/shims/color-diff-stub.ts"],
+      "*.md": ["src/shims/md-stub.ts"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules", "dist"]
 }
-

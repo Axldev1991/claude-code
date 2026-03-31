@@ -1,4 +1,4 @@
-import { buildComputerUseTools } from '@ant/computer-use-mcp'
+import { buildComputerUseTools } from '/home/axel-lenovo/Escritorio/claude-code/src/shims/ant-stub.ts'
 import { join } from 'path'
 import { fileURLToPath } from 'url'
 import { buildMcpToolName } from '../../services/mcp/mcpStringUtils.js'

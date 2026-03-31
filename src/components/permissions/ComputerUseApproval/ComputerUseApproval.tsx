@@ -1,7 +1,7 @@
 import { c as _c } from "react/compiler-runtime";
-import { getSentinelCategory } from '@ant/computer-use-mcp/sentinelApps';
-import type { CuPermissionRequest, CuPermissionResponse } from '@ant/computer-use-mcp/types';
-import { DEFAULT_GRANT_FLAGS } from '@ant/computer-use-mcp/types';
+import { getSentinelCategory } from '/home/axel-lenovo/Escritorio/claude-code/src/shims/ant-stub.ts';
+import type { CuPermissionRequest, CuPermissionResponse } from '/home/axel-lenovo/Escritorio/claude-code/src/shims/ant-stub.ts';
+import { DEFAULT_GRANT_FLAGS } from '/home/axel-lenovo/Escritorio/claude-code/src/shims/ant-stub.ts';
 import figures from 'figures';
 import * as React from 'react';
 import { useMemo, useState } from 'react';

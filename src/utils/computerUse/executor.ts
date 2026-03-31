@@ -35,9 +35,9 @@ import type {
   ResolvePrepareCaptureResult,
   RunningApp,
   ScreenshotResult,
-} from '@ant/computer-use-mcp'
+} from '/home/axel-lenovo/Escritorio/claude-code/src/shims/ant-stub.ts'
 
-import { API_RESIZE_PARAMS, targetImageSize } from '@ant/computer-use-mcp'
+import { API_RESIZE_PARAMS, targetImageSize } from '/home/axel-lenovo/Escritorio/claude-code/src/shims/ant-stub.ts'
 import { logForDebugging } from '../debug.js'
 import { errorMessage } from '../errors.js'
 import { execFileNoThrow } from '../execFileNoThrow.js'

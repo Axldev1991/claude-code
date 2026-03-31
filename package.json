@@ -61,6 +61,7 @@
     "chokidar": "^4.0.0",
     "cli-boxes": "^3.0.0",
     "code-excerpt": "^4.0.0",
+    "color-diff-napi": "^0.0.1",
     "diff": "^7.0.0",
     "drizzle-orm": "^0.45.2",
     "env-paths": "^4.0.0",

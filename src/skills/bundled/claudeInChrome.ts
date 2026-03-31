@@ -1,4 +1,4 @@
-import { BROWSER_TOOLS } from '@ant/claude-for-chrome-mcp'
+import { BROWSER_TOOLS } from '/home/axel-lenovo/Escritorio/claude-code/src/shims/ant-stub.ts'
 import { BASE_CHROME_PROMPT } from '../../utils/claudeInChrome/prompt.js'
 import { shouldAutoEnableClaudeInChrome } from '../../utils/claudeInChrome/setup.js'
 import { registerBundledSkill } from '../bundledSkills.js'

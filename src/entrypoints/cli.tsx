@@ -1,5 +1,12 @@
 import { feature } from 'bun:bundle';
 
+// @ts-ignore
+globalThis.MACRO = {
+  VERSION: '0.2.29',
+  ENVIRONMENT: 'production',
+  RELEASE_NOTES_URL: 'https://claude.ai/code/release-notes'
+};
+
 // Bugfix for corepack auto-pinning, which adds yarnpkg to peoples' package.jsons
 // eslint-disable-next-line custom-rules/no-top-level-side-effects
 process.env.COREPACK_ENABLE_AUTO_PIN = '0';
